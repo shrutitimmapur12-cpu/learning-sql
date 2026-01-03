@@ -19,6 +19,7 @@ values('1','Wings of Fire','A.P.J.Abdul Kalam','Autobiography',1999,'English',5,
 ('5','The Alchemist','Paulo Coelho','Fiction',1988,'English',10,7,4);
 
 truncate library_books;
+select*from library_books;
 
 insert into library_books (id,name,author,genre,publication_year,language,total_copies,available_copies,ratings)
 values('1','Wings of Fire','A.P.J.Abdul Kalam','Autobiography',1999,'English',5,3,5),
